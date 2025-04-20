@@ -4,17 +4,17 @@
     Database Configuration
     (ADD YOUR MAIN SERVER DB DETAILES HERE)
 */
-define('DB_HOST', 'my_main_domain_ip'); // Your mySQL Host 
-define('DB_USER', 'root'); // Your mySQL Databse username
-define('DB_PASS', ''); // Your mySQL Databse Password
-define('DB_NAME', 'gdplyr'); // The database where you have dumped the included sql file
+define('DB_HOST', 'localhost'); // Your mySQL Host 
+define('DB_USER', 'wuyhiqve_gdplayer'); // Your mySQL Databse username
+define('DB_PASS', 'wuyhiqve_gdplayer'); // Your mySQL Databse Password
+define('DB_NAME', 'wuyhiqve_gdplayer'); // The database where you have dumped the included sql file
 
 
 /*
     Set main domain
     Example : http://my-super-domain.com
 */
-define('MAIN_DOMAIN','http://localhost/gdplyr');
+define('MAIN_DOMAIN','https://saikaplay.site/gdplyr');
 
 
 /*
@@ -43,7 +43,7 @@ define('DEBUG', true);
     example : cdn1.mydomain.com/loadbalancer
     define('PROOT', '/loadbalancer');
 */
-define('PROOT', '');
+define('PROOT', '/loadbalancer');
 
 
 /*
