@@ -1,5 +1,8 @@
 FROM php:7.4-apache
 
+# Instala a extensão mysqli
+RUN docker-php-ext-install mysqli
+
 # Copia os arquivos do projeto para o diretório padrão do Apache
 COPY . /var/www/html/
 
