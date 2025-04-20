@@ -4,7 +4,7 @@
     Database Configuration
     (ADD YOUR MAIN SERVER DB DETAILES HERE)
 */
-define('DB_HOST', 'localhost'); // Your mySQL Host 
+define('DB_HOST', 'svcloud-01.ksbyte.com.br'); // Your mySQL Host 
 define('DB_USER', 'wuyhiqve_gdplayer'); // Your mySQL Databse username
 define('DB_PASS', 'wuyhiqve_gdplayer'); // Your mySQL Databse Password
 define('DB_NAME', 'wuyhiqve_gdplayer'); // The database where you have dumped the included sql file
